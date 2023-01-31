@@ -6,6 +6,8 @@ import First from './First';
 import Adcompaign from './components/Adcompaign';
 import { BrowserRouter , Route , Routes} from 'react-router-dom';
 import './App.css'
+import Buy from './components/Buy';
+import Selection from './components/Selection';
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<First />} />
         <Route path="/campaign" element={<Adcompaign />} />
-        {/* <Route path="/ki" element={<Main />} /> */}
+        <Route path="/buy" element={<Buy />} />
+        <Route path="/date" element={<Selection />} />
       </Routes>
       </BrowserRouter>
     </div>

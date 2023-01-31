@@ -1,0 +1,17 @@
+.yellow{
+    background-color: #F29A2E;
+    border: 2px grey ;
+    color: white;
+}
+.cardimage{
+    min-width: 22%;
+    height: 70%;
+    position: relative;
+}
+.card-image{
+    position: absolute;
+    width: 100%;
+    aspect-ratio: auto;
+    height: 100%;
+    border-radius: 10px;
+}
