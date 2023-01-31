@@ -19,7 +19,23 @@
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    transition: all 0.5s ease-in-out;
 }
 .navbar-icon .icon{
     font-size: 15px;
+}
+.navbar-icon .link{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.navbar-icon:hover{
+    cursor: pointer;
+}
+.navbar-icon:hover .icon{
+    transform: scale(2);
+}
+.link h6{
+    top: -8px;
+    position: relative;
 }

@@ -37,7 +37,7 @@
     margin-top: 5px;
 }
 .camp-story{
-    max-width: 85%;
+    max-width: 95%;
     margin: 5vh auto 0;
     padding: 22px;
     border-radius: 13px;
@@ -50,14 +50,14 @@
     margin-bottom: 15px;
 }
 .camp-story1 p{
-    font-size: 14px;
+    font-size: 13px;
     color: grey;
 }
 .camp-card{
     border: 1px solid grey;
     display: flex;
-    width:30%;
-    padding: 13px;
+    min-width:30%;
+    padding: 10px;
     border-radius: 8px;
     margin-top: 2vh;
     align-items: center;
@@ -71,7 +71,7 @@
     margin-left: 20px;
 }
 .card h2{
-    font-size: 18px;
+    font-size: 15px;
 }
 .card p{
     font-size: 14px;

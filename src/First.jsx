@@ -8,7 +8,7 @@ function First() {
     <div>
         <Main />
         <Create />
-        <Table />
+        {/* <Table /> */}
     </div>
   )
 }
