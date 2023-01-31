@@ -29,3 +29,13 @@
 .main-icon{
     margin: 0 15px;
 }
+
+@media screen and (max-width:600px) {
+    .main , .create-btn{
+        display: unset;
+    }
+    .create{
+        padding: 23px 10px;
+        max-width: 100%;
+    }
+}
