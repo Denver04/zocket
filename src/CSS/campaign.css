@@ -36,3 +36,47 @@
     font-size: 0.8rem;
     margin-top: 5px;
 }
+.camp-story{
+    max-width: 84%;
+    margin: 5vh auto 0;
+    padding: 22px;
+    border-radius: 13px;
+    border: solid thin grey;
+}
+.camp-story1{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.camp-story1 p{
+    font-size: 14px;
+    color: grey;
+}
+.camp-card{
+    border: 2px solid green;
+    display: flex;
+    width: 30%;
+    padding: 13px;
+    border-radius: 8px;
+    margin-top: 2vh;
+}
+.card-icon{
+    font-size: 30px;
+    margin: auto;
+}
+.card{
+    margin-left: 20px;
+}
+.card h2{
+    font-size: 18px;
+}
+.card p{
+    font-size: 14px;
+}
+.card-head{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 4vh;
+}

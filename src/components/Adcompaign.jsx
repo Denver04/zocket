@@ -31,8 +31,77 @@ function Adcompaign() {
             </div>
         </div>
         <div className='camp-story'>
-            <h4>What you want to do?</h4><span>(Step 1 of 4)</span>
+            <div className='camp-story1'>
+                <h5>What you want to do?</h5><p>(Step 1 of 4)</p>
+            </div>
+            <hr />
+            <div className='card-head'>
+                <div className='camp-card'>
+                    <CalendarMonthIcon className='card-icon'/>
+                    <div className='card'>
+                        <h2>Get leads us calls</h2>
+                        <p>Reach broad audience and get leads through calls</p>
+                    </div>
+                </div>
+                <div className='camp-card'>
+                    <CalendarMonthIcon className='card-icon'/>
+                    <div className='card'>
+                        <h2>Get leads us calls</h2>
+                        <p>Reach broad audience and get leads through calls</p>
+                    </div>
+                </div>
+                <div className='camp-card'>
+                    <CalendarMonthIcon className='card-icon'/>
+                    <div className='card'>
+                        <h2>Get leads us calls</h2>
+                        <p>Reach broad audience and get leads through calls</p>
+                    </div>
+                </div>
+                <div className='camp-card'>
+                    <CalendarMonthIcon className='card-icon'/>
+                    <div className='card'>
+                        <h2>Get leads us calls</h2>
+                        <p>Reach broad audience and get leads through calls</p>
+                    </div>
+                </div>
+                <div className='camp-card'>
+                    <CalendarMonthIcon className='card-icon'/>
+                    <div className='card'>
+                        <h2>Get leads us calls</h2>
+                        <p>Reach broad audience and get leads through calls</p>
+                    </div>
+                </div>
+                <div className='camp-card'>
+                    <CalendarMonthIcon className='card-icon'/>
+                    <div className='card'>
+                        <h2>Get leads us calls</h2>
+                        <p>Reach broad audience and get leads through calls</p>
+                    </div>
+                </div>
+                <div className='camp-card'>
+                    <CalendarMonthIcon className='card-icon'/>
+                    <div className='card'>
+                        <h2>Get leads us calls</h2>
+                        <p>Reach broad audience and get leads through calls</p>
+                    </div>
+                </div>
+                <div className='camp-card'>
+                    <CalendarMonthIcon className='card-icon'/>
+                    <div className='card'>
+                        <h2>Get leads us calls</h2>
+                        <p>Reach broad audience and get leads through calls</p>
+                    </div>
+                </div>
+                <div className='camp-card'>
+                    <CalendarMonthIcon className='card-icon'/>
+                    <div className='card'>
+                        <h2>Get leads us calls</h2>
+                        <p>Reach broad audience and get leads through calls</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <button>Continue</button>
     </div>
   )
 }
