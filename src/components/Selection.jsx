@@ -41,7 +41,7 @@ function Selection() {
             <hr />
             <div>
                 <div className='part part1'>
-                    <div className='parrt1-head'> 1. Budget and dates info</div>
+                    <div className='part1-head'> <span>1</span> Budget and dates info</div>
                     <div className='part1-timeline'>
                         <p>Budget Timeline</p>
                         <label class="switch">
@@ -65,7 +65,7 @@ function Selection() {
                      </div>
                 </div>
                 <div className='part part1 part2'>
-                    <div className='parrt1-head'> 2. Location info</div>
+                    <div className='part1-head'> <span>2</span> Location info</div>
                     <div className='part1-timeline'>
                         <p>Budget Timeline</p>
                         <label class="switch">
@@ -78,10 +78,6 @@ function Selection() {
                             <p>Select Location </p>
                             <input type="text" placeholder='Select a place name , address or coordinates'/>
                         </div>
-                        {/* <div className='part1-date1'>
-                            <p>End date </p>
-                            <input type="date" />
-                        </div> */}
                     </div>
                     <div className='part1-range'>
                         <p>Enter campaign budget</p>
@@ -91,7 +87,7 @@ function Selection() {
             </div>
         </div>
         <div className='continuebtn'>
-            <Link to="/buys"><button>Continue</button></Link>
+            <Link to="/deploy"><button>Continue</button></Link>
         </div>
     </div>
   )

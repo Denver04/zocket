@@ -1,0 +1,118 @@
+.ready{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    min-width: 100%;
+}
+.ready-card{
+    width: 24%;
+    border: solid thin rgb(208, 204, 204);
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.ready-card:hover{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    border: solid thin white;
+}
+.ready-img{
+    display: flex;
+    position: relative;
+    width: 25%;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.ready-card1{
+    display: flex;
+    width: 80%;
+    gap: 30px;
+    margin: auto;
+    margin-top: 4vh;
+}
+.ready-text p{
+    font-size: 12px;
+}
+.ready-text h5{
+    font-size: 15px;
+    color: #2B23A5;
+}
+.ready-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.ready-card2{
+    position: relative;
+    max-width: 90%;
+    margin: 2vh auto;
+}
+.readyp{
+    padding: 7px 15px;
+
+}
+.readyp p{
+    letter-spacing: 0.4px;
+    font-size: 14px;
+}
+.readyimage{
+    position: relative;
+    padding: 7px 15px;
+    margin: auto;
+}
+.readybtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: grey;
+}
+.readybtn .btnicon{
+    font-size: 16px;
+    color: grey;
+}
+.readybtn p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #2B23A5;
+}
+.readybtn button{
+    font-size: 16px;
+    padding: 5px 30px;
+    border: solid thin rgb(219, 216, 216);
+    color: grey;
+}
+.readyimage img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.ready-card3{
+    display: flex;
+    justify-content: space-around;
+    margin: 2.3vh auto;
+}
+.ready-card3 button{
+    padding: 8px 15px;
+    border: none;
+    font-size: 14px;
+    border-radius: 10px;
+    color: #0F6EFF;
+    background: rgba(15, 110, 255, 0.1);
+    transition: all 0.5s ease-in-out;
+}
+.ready-card3 button:hover{
+    cursor: pointer;
+}
+.ready-card:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .ready-card{
+        width: unset;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:700px){
+    .ready-card{
+        width: 45%;
+        margin: auto;
+    }
+}

@@ -8,6 +8,7 @@ import { BrowserRouter , Route , Routes} from 'react-router-dom';
 import './App.css'
 import Buy from './components/Buy';
 import Selection from './components/Selection';
+import Ready from './components/Ready';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/campaign" element={<Adcompaign />} />
         <Route path="/buy" element={<Buy />} />
         <Route path="/date" element={<Selection />} />
+        <Route path="/deploy" element={<Ready />} />
       </Routes>
       </BrowserRouter>
     </div>

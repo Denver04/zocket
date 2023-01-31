@@ -42,64 +42,64 @@ function Buy() {
                 <div className='camp-card'>
                     <div className='cardimage'><img src={CupCake} className="card-image"/></div>
                     <div className='card'>
-                        <h2>Get leads as calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Bluberry cake with raw toppings</h2>
+                        <p>Rs: 2,290</p>
                     </div>
                 </div>
                 <div className='camp-card'>
                     <div className='cardimage'><img src={CupCake} className="card-image"/></div>
                     <div className='card'>
-                        <h2>Get leads as calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Chocolate truffle cake</h2>
+                        <p>Rs: 2,290</p>
                     </div>
                 </div>
                 <div className='camp-card'>
                     <div className='cardimage'><img src={CupCake} className="card-image"/></div>
                     <div className='card'>
-                        <h2>Get leads as calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Browine cake with fluffy cream</h2>
+                        <p>Rs: 2,290</p>
                     </div>
                 </div>
                 <div className='camp-card'>
                     <div className='cardimage'><img src={CupCake} className="card-image"/></div>
                     <div className='card'>
-                        <h2>Get leads as calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Ferro rocher cake</h2>
+                        <p>Rs: 2,290</p>
                     </div>
                 </div>
                 <div className='camp-card'>
                     <div className='cardimage'><img src={CupCake} className="card-image"/></div>
                     <div className='card'>
-                        <h2>Get leads as calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Custurd mixed with fruit cake</h2>
+                        <p>Rs: 2,290</p>
                     </div>
                 </div>
                 <div className='camp-card'>
                     <div className='cardimage'><img src={CupCake} className="card-image"/></div>
                     <div className='card'>
-                        <h2>Get leads as calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Best raw topping choco cake</h2>
+                        <p>Rs: 2,290</p>
                     </div>
                 </div>
                 <div className='camp-card'>
                     <div className='cardimage'><img src={CupCake} className="card-image"/></div>
                     <div className='card'>
-                        <h2>Get leads as calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Green cup cakes</h2>
+                        <p>Rs: 2,290</p>
                     </div>
                 </div>
                 <div className='camp-card'>
                     <div className='cardimage'><img src={CupCake} className="card-image"/></div>
                     <div className='card'>
-                        <h2>Get leads as calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Strawberry cakes with blueberry</h2>
+                        <p>Rs: 2,290</p>
                     </div>
                 </div>
                 <div className='camp-card'>
                     <div className='cardimage'><img src={CupCake} className="card-image"/></div>
                     <div className='card'>
-                        <h2>Get leads as calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Blueberry topping cakes</h2>
+                        <p>Rs: 2,290</p>
                     </div>
                 </div>
             </div>
