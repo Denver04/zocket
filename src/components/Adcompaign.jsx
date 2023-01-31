@@ -4,6 +4,15 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import InventoryIcon from '@mui/icons-material/Inventory';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
+import MessageRoundedIcon from '@mui/icons-material/MessageRounded';
+import PersonAddAltRoundedIcon from '@mui/icons-material/PersonAddAltRounded';
+import PeopleRoundedIcon from '@mui/icons-material/PeopleRounded';
+import RemoveRedEyeRoundedIcon from '@mui/icons-material/RemoveRedEyeRounded';
+import PhoneCallbackRoundedIcon from '@mui/icons-material/PhoneCallbackRounded';
+import SendRoundedIcon from '@mui/icons-material/SendRounded';
+import LocalConvenienceStoreRoundedIcon from '@mui/icons-material/LocalConvenienceStoreRounded';
+import SecurityUpdateRoundedIcon from '@mui/icons-material/SecurityUpdateRounded';
+import EventNoteRoundedIcon from '@mui/icons-material/EventNoteRounded';
 
 function Adcompaign() {
   return (
@@ -37,71 +46,73 @@ function Adcompaign() {
             <hr />
             <div className='card-head'>
                 <div className='camp-card'>
-                    <CalendarMonthIcon className='card-icon'/>
+                    <PhoneCallbackRoundedIcon className='card-icon'/>
                     <div className='card'>
-                        <h2>Get leads us calls</h2>
+                        <h2>Get leads as calls</h2>
                         <p>Reach broad audience and get leads through calls</p>
                     </div>
                 </div>
                 <div className='camp-card'>
-                    <CalendarMonthIcon className='card-icon'/>
+                    <MessageRoundedIcon className='card-icon'/>
                     <div className='card'>
-                        <h2>Get leads us calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Get Leads as Facebook messages</h2>
+                        <p>Get more FB messages from Leads</p>
                     </div>
                 </div>
                 <div className='camp-card'>
-                    <CalendarMonthIcon className='card-icon'/>
+                    <PersonAddAltRoundedIcon className='card-icon'/>
                     <div className='card'>
-                        <h2>Get leads us calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Increase page followers</h2>
+                        <p>Encourage customers to follow your page</p>
                     </div>
                 </div>
                 <div className='camp-card'>
-                    <CalendarMonthIcon className='card-icon'/>
+                    <PeopleRoundedIcon className='card-icon'/>
                     <div className='card'>
-                        <h2>Get leads us calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Get Customer Leads</h2>
+                        <p>Encourage customers to take action</p>
                     </div>
                 </div>
                 <div className='camp-card'>
-                    <CalendarMonthIcon className='card-icon'/>
+                    <EventNoteRoundedIcon className='card-icon'/>
                     <div className='card'>
-                        <h2>Get leads us calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Increase the catalogue sales</h2>
+                        <p>Drive the sales of your catalogue and get more leads</p>
                     </div>
                 </div>
                 <div className='camp-card'>
-                    <CalendarMonthIcon className='card-icon'/>
+                    <RemoveRedEyeRoundedIcon className='card-icon'/>
                     <div className='card'>
-                        <h2>Get leads us calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Get more youtube views</h2>
+                        <p>Increase organic views by obtaining user attention </p>
                     </div>
                 </div>
                 <div className='camp-card'>
-                    <CalendarMonthIcon className='card-icon'/>
+                    <SendRoundedIcon className='card-icon'/>
                     <div className='card'>
-                        <h2>Get leads us calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Get more website traffic</h2>
+                        <p>Get the right people to visit your website</p>
                     </div>
                 </div>
                 <div className='camp-card'>
-                    <CalendarMonthIcon className='card-icon'/>
+                    <LocalConvenienceStoreRoundedIcon className='card-icon'/>
                     <div className='card'>
-                        <h2>Get leads us calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Increase Live store traffic</h2>
+                        <p>Drive visits to local stores, restaurants & Dealerships</p>
                     </div>
                 </div>
                 <div className='camp-card'>
-                    <CalendarMonthIcon className='card-icon'/>
+                    <SecurityUpdateRoundedIcon className='card-icon'/>
                     <div className='card'>
-                        <h2>Get leads us calls</h2>
-                        <p>Reach broad audience and get leads through calls</p>
+                        <h2>Increase your App installs</h2>
+                        <p>Get more installs, interactions for your app</p>
                     </div>
                 </div>
             </div>
         </div>
-        <button>Continue</button>
+        <div className='continuebtn'>
+            <button>Continue</button>
+        </div>
     </div>
   )
 }

@@ -37,7 +37,7 @@
     margin-top: 5px;
 }
 .camp-story{
-    max-width: 84%;
+    max-width: 85%;
     margin: 5vh auto 0;
     padding: 22px;
     border-radius: 13px;
@@ -54,16 +54,18 @@
     color: grey;
 }
 .camp-card{
-    border: 2px solid green;
+    border: 1px solid grey;
     display: flex;
-    width: 30%;
+    width:30%;
     padding: 13px;
     border-radius: 8px;
     margin-top: 2vh;
+    align-items: center;
+    transition: 0.2s ease-in-out;
 }
 .card-icon{
     font-size: 30px;
-    margin: auto;
+    /* margin: auto; */
 }
 .card{
     margin-left: 20px;
@@ -79,4 +81,27 @@
     flex-wrap: wrap;
     gap: 12px;
     margin-top: 4vh;
+}
+.continuebtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 9vw;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+}
+.continuebtn button{
+    font-size: 20px;
+    padding: 8px 50px;
+    border: solid thin;
+    background: #0F6EFF;
+    color: white;
+    border-radius: 8px;
+}
+.camp-card:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2) , -2px -2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+    border: grey;
+}
+.camp-card:hover .card-icon{
+    color: #0F6EFF;
 }
