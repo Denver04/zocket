@@ -116,3 +116,20 @@
         margin: auto;
     }
 }
+.buttons{
+    position: relative;
+    font-size: 15px;
+    line-height: 1.5;
+    overflow: hidden;
+    color: white;
+    background-color: yellow;
+    width: 50%;
+}
+.buttons input[type="file"]{
+    cursor: pointer;
+    position: absolue;
+    left: 0;
+    top: 0;
+    /* transform: scale(3); */
+    opacity: 0;
+}

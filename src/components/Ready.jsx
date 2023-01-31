@@ -61,7 +61,7 @@ function Ready() {
                         </div>
                     </div>
                     <div className='ready-card3'>
-                        <button>Change image</button>
+                    <button >Change image </button>
                         <button>Edit text</button>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ function Ready() {
                         </div>
                     </div>
                     <div className='ready-card3'>
-                        <button>Change image</button>
+                    <button >Change image </button>
                         <button>Edit text</button>
                     </div>
                 </div>
@@ -107,7 +107,7 @@ function Ready() {
                         </div>
                     </div>
                     <div className='ready-card3'>
-                        <button>Change image</button>
+                    <button>Change image</button>
                         <button>Edit text</button>
                     </div>
                 </div>
@@ -130,7 +130,7 @@ function Ready() {
                         </div>
                     </div>
                     <div className='ready-card3'>
-                        <button>Change image</button>
+                    <button>Change image</button>
                         <button>Edit text</button>
                     </div>
                 </div>
