@@ -1,0 +1,80 @@
+.table0{
+    border: solid thin grey;
+    margin: 0vh 5vh;
+    border-radius: 10px;
+    margin-top: 2vh;
+    background-color: #FFFFFF;
+}
+.table1{
+    display: flex;
+    max-width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 3vh;
+}
+.table12{
+    display: flex;
+}
+.table-select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table11 input{
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 4px;
+    border: solid thin grey;
+}
+.table11 i{
+    font-size: 22px;
+    margin: 0 10px;
+    color: grey;
+}
+.table0 select{
+    font-size: 17px;
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 6px;
+    margin: 0 10px;
+    text-align: center;
+}
+.table-select p{
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+.table2{
+    text-align: initial;
+    margin: 30px;
+}
+.table2 .table{
+    width: 90%;
+    margin: 4vh auto 0;
+}
+thead{
+    border: 2px solid black;
+}
+th{
+    padding: 1px 10px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    text-align: initial;
+}
+td button{
+    font-size: 14px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 40px;
+}
+td{
+    padding: 15px 10px;
+}
+.td-camp{
+    font-size: 15px;
+}
+.deleicon{
+    display: flex;
+    gap: 10px;
+    color: grey;
+}

@@ -1,0 +1,31 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid thin #DAE6FF;
+    background-color: #FFFFFF;
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.main1{
+    display: flex;
+    align-items: center;
+    min-width: 25%;
+    justify-content: space-around;
+}
+.main1 button{
+    background-color: #FF8C00;
+    color: black;
+}
+.nain1 button:hover{
+    background-color: #FF8C00;
+}
+.main2{
+    display: flex;
+    /* min-width: 40%; */
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-icon{
+    margin: 0 15px;
+}

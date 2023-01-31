@@ -1,0 +1,38 @@
+.campaign{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+.campaign p{
+    color: grey;
+}
+.lightbulb{
+    display: flex;
+    /* margin-left: 10vw; */
+    margin-top: 5vh;
+    justify-content: space-around;
+    color: grey;
+    /* border-bottom: 2px solid red;
+    position: relative; */
+}
+.campicon{
+    font-size: 2.2rem;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 5px;
+}
+.camp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    bottom: -45px; */
+    z-index: 2;
+    background-color: white;
+}
+.camp p{
+    font-size: 0.8rem;
+    margin-top: 5px;
+}

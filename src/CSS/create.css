@@ -1,0 +1,40 @@
+.topcreate{
+    background-color: #DAE6FF;
+}
+.create{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    background-color: #DAE6FF;
+    max-width: 80%;
+    margin: auto;
+}
+.create-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 13px;
+    border-radius: 8px;
+    background-color: #0F6EFF;
+    border: solid thin grey;
+    color: white;
+}
+.btn-icon{
+    /* visibility: hidden;
+    opacity: 0; */
+    transition: all 1s;
+    transform: perspective(360deg);
+    transform-style: preserve-3d;
+    transform: scale(0.9);
+    /* color: grey; */
+}
+.create-btn:hover .btn-icon{
+    transform: scale(1.1) ;
+
+}
+.create-btn:hover{
+    cursor: pointer;
+    border: solid thin black;
+}
