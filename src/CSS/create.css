@@ -15,10 +15,10 @@
     align-items: center;
     justify-content: center;
     font-size: 15px;
-    padding: 13px;
+    padding: 13px 18px;
     border-radius: 8px;
     background-color: #0F6EFF;
-    border: solid thin grey;
+    border: solid thin rgb(196, 194, 194);
     color: white;
 }
 .btn-icon{

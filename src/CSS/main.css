@@ -1,21 +1,24 @@
 .main{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     border: solid thin #DAE6FF;
     background-color: #FFFFFF;
     padding: 15px;
     color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
 }
 .main1{
     display: flex;
     align-items: center;
-    min-width: 25%;
+    /* min-width: 25%; */
     justify-content: space-around;
+    gap: 10px;
 }
 .main1 button{
-    background-color: #FF8C00;
-    color: black;
+    font-size: 10px;
+    color: #ff8c00;
+    background-color: #f7f6cf;
 }
 .nain1 button:hover{
     background-color: #FF8C00;
@@ -31,11 +34,28 @@
 }
 
 @media screen and (max-width:600px) {
-    .main , .create-btn{
+    /* .main , .create-btn{
         display: unset;
-    }
+    } */
     .create{
         padding: 23px 10px;
         max-width: 100%;
+        font-size: 14px;
+    }
+    .create-btn{
+        padding: 10px 15px;
+        display: flex;
+        font-size: 14px;
+    }
+    .main1{
+        margin-bottom: 2vh;
+    }
+    .main2{
+        justify-content: unset;
+    }
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
     }
 }
