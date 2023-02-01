@@ -139,7 +139,7 @@ function Table() {
                 <td>300</td>
                 <td>INR.3,400</td>
                 <td>Mumbai</td>
-                <td><GoogleIcon /></td>
+                <td><FacebookOutlinedIcon style={{"color":"#4285F4"}}/></td>
                 <td><button style={{backgroundColor:"#FFF8E0" , "color":"#D1A307"}}>Paused</button></td>
                 <td>
                     <div className='deleicon'>
