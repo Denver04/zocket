@@ -7,6 +7,9 @@ import GoogleIcon from '@mui/icons-material/Google';
 import BorderColorIcon from '@mui/icons-material/BorderColor';
 import DeleteIcon from '@mui/icons-material/Delete';
 import "../CSS/table.css"
+import "../CSS/campaign.css";
+import "../CSS/buy.css";
+import "../CSS/selection.css";
 
 function Table() {
   return (
@@ -66,7 +69,12 @@ function Table() {
             <tbody>
                 <tr>
                 <td scope="row"><CheckBoxOutlineBlankIcon /></td>
-                <td>Mark</td>
+                <td>
+                <label class="switch">
+                        <input type="checkbox"></input>
+                        <span class="slider round" data-on="ON" data-off="OFF"></span>
+                </label>
+                </td>
                 <td>
                     <div className='td-camp'>
                         <p><b>Bluberry cake Campaign</b></p>
@@ -88,7 +96,12 @@ function Table() {
                 </tr>
                 <tr>
                 <td scope="row"><CheckBoxOutlineBlankIcon /></td>
-                <td>Mark</td>
+                <td>
+                <label class="switch">
+                        <input type="checkbox"></input>
+                        <span class="slider round" data-on="ON" data-off="OFF"></span>
+                </label>
+                </td>
                 <td>
                     <div className='td-camp'>
                         <p><b>Bluberry cake Campaign</b></p>
@@ -110,7 +123,12 @@ function Table() {
                 </tr>
                 <tr>
                 <td scope="row"><CheckBoxOutlineBlankIcon /></td>
-                <td>Mark</td>
+                <td>
+                <label class="switch">
+                        <input type="checkbox"></input>
+                        <span class="slider round" data-on="ON" data-off="OFF"></span>
+                </label>
+                </td>
                 <td>
                     <div className='td-camp'>
                         <p><b>Bluberry cake Campaign</b></p>
@@ -132,7 +150,12 @@ function Table() {
                 </tr>
                 <tr>
                 <td scope="row"><CheckBoxOutlineBlankIcon /></td>
-                <td>Mark</td>
+                <td>
+                <label class="switch">
+                        <input type="checkbox"></input>
+                        <span class="slider round" data-on="ON" data-off="OFF"></span>
+                </label>
+                </td>
                 <td>
                     <div className='td-camp'>
                         <p><b>Bluberry cake Campaign</b></p>
@@ -154,7 +177,12 @@ function Table() {
                 </tr>
                 <tr>
                 <td scope="row"><CheckBoxOutlineBlankIcon /></td>
-                <td>Mark</td>
+                <td>
+                <label class="switch">
+                        <input type="checkbox"></input>
+                        <span class="slider round" data-on="ON" data-off="OFF"></span>
+                </label>
+                </td>
                 <td>
                     <div className='td-camp'>
                         <p><b>Bluberry cake Campaign</b></p>

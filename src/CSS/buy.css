@@ -18,3 +18,14 @@
 .card p{
     color: grey;
 }
+
+@media screen  and (max-width:600px){
+    .cardimage{
+        height: 45%;
+    }
+}
+@media screen  and (max-width:1200px) and (min-width:700px){
+    .cardimage{
+        height: 70%;
+    }
+}

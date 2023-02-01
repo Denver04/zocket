@@ -57,9 +57,13 @@ thead{
 }
 th{
     padding: 1px 10px;
-    /* border: 2px solid black; */
-    border-radius: 20px;
-    text-align: initial;
+    border: 1px solid #c2c0c0;
+    border-radius: 5px;
+    text-align: inherit;
+}
+th:hover{
+    background-color:#d0c7c787;
+    cursor: pointer;
 }
 td button{
     font-size: 14px;

@@ -1,7 +1,7 @@
 .ready{
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 12px;
     min-width: 100%;
 }
 .ready-card{
@@ -95,7 +95,7 @@
     border-radius: 10px;
     color: #0F6EFF;
     background: rgba(15, 110, 255, 0.1);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 .ready-card3 button:hover{
     cursor: pointer;
@@ -106,6 +106,12 @@
 
 @media screen and (max-width:600px){
     .ready-card{
+        width: unset;
+    }
+}
+@media screen and (max-width:400px) {
+    .ready-card1{
+        gap: 2px;
         width: unset;
     }
 }

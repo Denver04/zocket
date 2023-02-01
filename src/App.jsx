@@ -9,12 +9,14 @@ import './App.css'
 import Buy from './components/Buy';
 import Selection from './components/Selection';
 import Ready from './components/Ready';
+import SideBar from './Sidebar';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar />
+      {/* <Navbar /> */}
+      <SideBar>
       <Routes>
         <Route path="/" element={<First />} />
         <Route path="/campaign" element={<Adcompaign />} />
@@ -22,6 +24,7 @@ function App() {
         <Route path="/date" element={<Selection />} />
         <Route path="/deploy" element={<Ready />} />
       </Routes>
+      </SideBar>
       </BrowserRouter>
     </div>
   )
